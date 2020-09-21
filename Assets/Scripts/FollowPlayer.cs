@@ -5,11 +5,11 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     public Transform player;
-    public float cameraDistance = 30.0f;
+    public float cameraDistance = 10.0f;
 
     void Awake()
     {
-        GetComponent<UnityEngine.Camera>().orthographicSize = ((Screen.height / 2) / cameraDistance);
+        GetComponent<UnityEngine.Camera>().orthographicSize = ((Screen.height) / cameraDistance);
     }
 
     // Update is called once per frame

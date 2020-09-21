@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 734453503}
-  cameraDistance: 30
+  cameraDistance: 10
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
